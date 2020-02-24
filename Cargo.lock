@@ -630,7 +630,7 @@ dependencies = [
  "log",
  "miow",
  "net2",
- "slab 0.4.2",
+ "slab",
  "winapi 0.2.8",
 ]
 
@@ -643,7 +643,7 @@ dependencies = [
  "lazycell",
  "log",
  "mio",
- "slab 0.4.2",
+ "slab",
 ]
 
 [[package]]
@@ -1159,12 +1159,6 @@ dependencies = [
 
 [[package]]
 name = "slab"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17b4fcaed89ab08ef143da37bc52adbcc04d4a69014f4c1208d6b51f0c47bc23"
-
-[[package]]
-name = "slab"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8"
@@ -1209,7 +1203,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_json",
- "slab 0.3.0",
+ "slab",
  "sozu-command-lib",
  "sozu-lib",
  "tempfile",
@@ -1274,7 +1268,7 @@ dependencies = [
  "quickcheck",
  "rand",
  "rustls",
- "slab 0.3.0",
+ "slab",
  "sozu-command-lib",
  "time 0.1.42",
  "tiny_http",
@@ -1586,7 +1580,7 @@ dependencies = [
  "mio",
  "num_cpus",
  "parking_lot",
- "slab 0.4.2",
+ "slab",
  "tokio-executor",
  "tokio-io",
  "tokio-sync",
@@ -1629,7 +1623,7 @@ dependencies = [
  "lazy_static",
  "log",
  "num_cpus",
- "slab 0.4.2",
+ "slab",
  "tokio-executor",
 ]
 
@@ -1641,7 +1635,7 @@ checksum = "93044f2d313c95ff1cb7809ce9a7a05735b012288a888b62d4434fd58c94f296"
 dependencies = [
  "crossbeam-utils 0.7.0",
  "futures",
- "slab 0.4.2",
+ "slab",
  "tokio-executor",
 ]
 
