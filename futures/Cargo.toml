@@ -21,7 +21,7 @@ include = [
 [dependencies]
 log = "^0.4"
 bytes = "^0.5"
-futures = "^0.1"
+futures = "^0.3"
 tokio-codec = "^0.1"
 tokio-uds = "^0.2"
 serde = "^1.0.2"
