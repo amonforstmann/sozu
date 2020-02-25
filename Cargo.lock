@@ -1356,7 +1356,7 @@ dependencies = [
  "sozu-command-lib",
  "sozu-lib",
  "tempfile",
- "time 0.1.42",
+ "time 0.2.6",
 ]
 
 [[package]]
@@ -1419,7 +1419,7 @@ dependencies = [
  "rustls",
  "slab",
  "sozu-command-lib",
- "time 0.1.42",
+ "time 0.2.6",
  "tiny_http",
  "url 2.1.1",
  "uuid",
