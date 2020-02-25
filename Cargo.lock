@@ -990,17 +990,6 @@ dependencies = [
 
 [[package]]
 name = "proc-macro-error"
-version = "0.2.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aeccfe4d5d8ea175d5f0e4a2ad0637e0f4121d63bd99d356fb1f39ab2e7c6097"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "proc-macro-error"
 version = "0.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "875077759af22fa20b610ad4471d8155b321c89c3f2785526c9839b099be4e0a"
@@ -1438,7 +1427,7 @@ dependencies = [
  "serde_json",
  "sozu-command-lib",
  "structopt",
- "structopt-derive 0.3.5",
+ "structopt-derive",
 ]
 
 [[package]]
@@ -1467,20 +1456,7 @@ checksum = "a1bcbed7d48956fcbb5d80c6b95aedb553513de0a1b451ea92679d999c010e98"
 dependencies = [
  "clap",
  "lazy_static",
- "structopt-derive 0.4.2",
-]
-
-[[package]]
-name = "structopt-derive"
-version = "0.3.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ea692d40005b3ceba90a9fe7a78fa8d4b82b0ce627eebbffc329aab850f3410e"
-dependencies = [
- "heck",
- "proc-macro-error 0.2.6",
- "proc-macro2",
- "quote",
- "syn",
+ "structopt-derive",
 ]
 
 [[package]]
@@ -1490,7 +1466,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "095064aa1f5b94d14e635d0a5684cf140c43ae40a0fd990708d38f5d669e5f64"
 dependencies = [
  "heck",
- "proc-macro-error 0.4.8",
+ "proc-macro-error",
  "proc-macro2",
  "quote",
  "syn",
