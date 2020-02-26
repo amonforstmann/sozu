@@ -1345,7 +1345,7 @@ dependencies = [
  "sozu-command-lib",
  "sozu-lib",
  "tempfile",
- "time 0.2.6",
+ "time 0.2.7",
 ]
 
 [[package]]
@@ -1381,7 +1381,7 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "sha2",
- "time 0.2.6",
+ "time 0.2.7",
  "toml",
 ]
 
@@ -1408,7 +1408,7 @@ dependencies = [
  "rustls",
  "slab",
  "sozu-command-lib",
- "time 0.2.6",
+ "time 0.2.7",
  "tiny_http",
  "url 2.1.1",
  "uuid",
@@ -1559,12 +1559,14 @@ dependencies = [
 
 [[package]]
 name = "time"
-version = "0.2.6"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bcb8742444475438c500d017736dd7cf3d9c9dd1f0153cfa4af428692484e3ef"
+checksum = "3043ac959c44dccc548a57417876c8fe241502aed69d880efc91166c02717a93"
 dependencies = [
+ "libc",
  "rustversion",
  "time-macros",
+ "winapi 0.3.8",
 ]
 
 [[package]]
