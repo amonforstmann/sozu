@@ -35,7 +35,7 @@ sha2 = "^0.8"
 memchr = "2.3"
 serde = "^1.0.2"
 serde_json = "^1.0.48"
-serde_derive = "^1.0.2"
+serde_derive = "^1.0.106"
 
 [features]
 unstable = []
