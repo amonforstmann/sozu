@@ -24,7 +24,7 @@ bytes = "^0.5"
 futures = "^0.3"
 tokio-codec = "^0.1"
 tokio-uds = "^0.2"
-serde = "^1.0.2"
+serde = "^1.0.126"
 serde_json = "^1.0.48"
 sozu-command-lib = {version = "^0.11", path = "../command" }
 
